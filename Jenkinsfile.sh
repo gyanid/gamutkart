@@ -9,7 +9,7 @@ pipeline {
 	}
 	environment 
 	{
-	M2_HOME=/home/jjenkin/software/apache-maven-3.6.2
+	M2_HOME="/home/jjenkin/software/apache-maven-3.6.2"
 	}
 
 
