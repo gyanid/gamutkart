@@ -15,6 +15,7 @@ stages {
                 ''' 
             }
         }
+	}
 	//environment 
  	//{
 	//JAVA_HOME='/home/jjenkin/software/jdk1.8.0_181'
