@@ -1,9 +1,15 @@
 
 pipeline {
     agent any
+    
+      
 
 	tools {
 		maven 'maven3.6'
+	}
+	environment 
+	{
+	M2_HOME=/home/jjenkin/software/apache-maven-3.6.2
 	}
 
 
