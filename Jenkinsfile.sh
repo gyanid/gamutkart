@@ -5,12 +5,12 @@ pipeline {
       
 
 	tools {
-		maven 'maven3.6'
+		maven 'maven3.6.0'
 	}
-	environment 
-	{
-	M2_HOME="/home/jjenkin/software/apache-maven-3.6.2"
-	}
+# 	environment 
+# 	{
+# 	M2_HOME="/home/jjenkin/software/apache-maven-3.6.2"
+# 	}
 
 
     stages {
