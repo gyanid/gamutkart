@@ -8,7 +8,7 @@ pipeline {
  	{
 	JAVA_HOME="/home/jjenkin/software/jdk1.8.0_181"
  	M2_HOME="/home/jjenkin/software/apache-maven-3.6.2"
-PATH="/home/jjenkin/software/jdk1.8.0_181/bin:/home/jjenkin/software/apache-maven-3.6.2:$PATH"
+//PATH="/home/jjenkin/software/jdk1.8.0_181/bin:/home/jjenkin/software/apache-maven-3.6.2:$PATH"
         }
 
 
