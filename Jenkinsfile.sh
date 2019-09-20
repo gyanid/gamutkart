@@ -14,16 +14,16 @@ pipeline {
 		stage('Clone-Repo') {
 			steps {
 				checkout scm
-			}
+				}
 		}
 		stage('Build') {
 	    	steps {
-				sh mvn install -DskipTests
+				sh 'mvn install -DskipTests'
 				}
 	    }
 		stage('Unit Tests') {
 			steps {
-				sh mvn surefire:test
+				sh 'mvn surefire:test'
 			}
 		}
                 stage('deploy'){
