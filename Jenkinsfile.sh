@@ -5,7 +5,7 @@ pipeline {
       
 
 	tools {
-		maven 'maven3.6.0'
+		maven 'maven3.6'
 	}
 //	environment 
 // 	{
